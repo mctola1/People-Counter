@@ -18,4 +18,4 @@ function reset() {
     saveEl.textContent = ""
     countEl.textContent = 0
     count = 0
-  }
+} 
