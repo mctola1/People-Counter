@@ -1,0 +1,60 @@
+body {
+    background-image: url("/image/subway4.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    background-color: aquamarine;
+    font-family: 'DM Serif Display', serif;
+}
+
+.Counter {
+    background-color: aliceblue;
+    max-width: 20rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-image: url("/image/subway3.jpg");
+    border-style: solid;
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+h1 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+button {
+    display: grid;
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 20rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+}
+
+#increment-btn {
+    background: rgb(92, 3, 3);
+}
+
+#save-btn {
+    background: rgb(5, 53, 5);
+}
+
+#reset-btn {
+    background: rgb(46, 46, 4);
+}
+
